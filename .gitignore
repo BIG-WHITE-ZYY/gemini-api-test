@@ -1,0 +1,29 @@
+# ============================================================
+#  cookie 文件 —— 里面是你 Google 账号的登录凭据（SID / SAPISID 等）
+#  拿到它等于拿到你的登录态，绝对不要提交
+# ============================================================
+*_cookies.txt
+aistudio.google.com_cookies.txt
+*cookies*.txt
+*.cookie
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 个人笔记
+*.local.md
+
+# 兜底：任何 cookie 文件
+**/*cookie*
+**/*.cookies
