@@ -7,6 +7,14 @@ aistudio.google.com_cookies.txt
 *cookies*.txt
 *.cookie
 
+# ============================================================
+#  Gemini API key —— 拿到它等于拿到你的调用额度，绝对不要提交
+# ============================================================
+gemini_api_key.txt
+gemini_api_key
+*api*key*.txt
+*.apikey
+
 # Python 缓存
 __pycache__/
 *.py[cod]

@@ -1,0 +1,785 @@
+{
+  "时间": "2026-09-16 00:39:36",
+  "结论_找到可用节点": "🇸🇬新加坡专线03|BGP|流媒体",
+  "明细": [
+    {
+      "node": "🇯🇵日本高速01|CTCU|0.5x",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 3.95,
+      "exit_ip": "203.10.99.34",
+      "exit_ip_loc": "JP Tokyo",
+      "chains": [
+        "🇯🇵日本高速01|CTCU|0.5x",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇯🇵日本高速02|CTCU|0.5x",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 2.0,
+      "exit_ip": "203.10.99.42",
+      "exit_ip_loc": "JP Tokyo",
+      "chains": [
+        "🇯🇵日本高速02|CTCU|0.5x",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇭🇰香港高速01|BGP|CMCU",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 0.82,
+      "exit_ip": "16.163.95.232",
+      "exit_ip_loc": "HK Hong Kong",
+      "chains": [
+        "🇭🇰香港高速01|BGP|CMCU",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "US",
+      "google_suffix": "com"
+    },
+    {
+      "node": "🇭🇰香港高速02|BGP|CMCU",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 0.81,
+      "exit_ip": "18.162.120.187",
+      "exit_ip_loc": "HK Hong Kong",
+      "chains": [
+        "🇭🇰香港高速01|BGP|CMCU",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "US",
+      "google_suffix": "com"
+    },
+    {
+      "node": "🇭🇰香港高速03|BGP|CMCU",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 0.86,
+      "exit_ip": "43.198.153.187",
+      "exit_ip_loc": "HK Hong Kong",
+      "chains": [
+        "🇭🇰香港高速03|BGP|CMCU",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "US",
+      "google_suffix": "com"
+    },
+    {
+      "node": "🇭🇰香港高速04|BGP|CMCU",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 0.8,
+      "exit_ip": "18.163.122.233",
+      "exit_ip_loc": "HK Hong Kong",
+      "chains": [
+        "🇭🇰香港高速03|BGP|CMCU",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "US",
+      "google_suffix": "com"
+    },
+    {
+      "node": "🇭🇰香港高速05|BGP|CMCU",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 0.8,
+      "exit_ip": "95.40.107.5",
+      "exit_ip_loc": "HK Hong Kong",
+      "chains": [
+        "🇭🇰香港高速04|BGP|CMCU",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "US",
+      "google_suffix": "com"
+    },
+    {
+      "node": "🇸🇬新加坡高速01|BGP|CTCUCM",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 1.15,
+      "exit_ip": "66.90.98.34",
+      "exit_ip_loc": "SG Singapore",
+      "chains": [
+        "🇸🇬新加坡高速01|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇸🇬新加坡高速02|BGP|CTCUCM",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 0.86,
+      "exit_ip": "66.90.98.35",
+      "exit_ip_loc": "SG Singapore",
+      "chains": [
+        "🇸🇬新加坡高速02|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇸🇬新加坡高速03|BGP|CTCUCM",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 0.89,
+      "exit_ip": "66.90.98.36",
+      "exit_ip_loc": "SG Singapore",
+      "chains": [
+        "🇸🇬新加坡高速03|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇸🇬新加坡高速04|BGP|CTCUCM",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 0.69,
+      "exit_ip": "66.90.98.37",
+      "exit_ip_loc": "SG Singapore",
+      "chains": [
+        "🇸🇬新加坡高速03|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇸🇬新加坡高速05|BGP|CTCUCM",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 0.8,
+      "exit_ip": "66.90.98.38",
+      "exit_ip_loc": "SG Singapore",
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇸🇬新加坡高速06|BGP|CTCU",
+      "ok": false,
+      "kind": "net",
+      "why": "❌ 连不上：ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurr",
+      "status": null,
+      "text": "ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)",
+      "elapsed": 5.02,
+      "exit_ip": null,
+      "exit_ip_loc": null,
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇸🇬新加坡高速07|BGP|CTCU",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 3.55,
+      "exit_ip": null,
+      "exit_ip_loc": null,
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇸🇬新加坡高速08|BGP|CTCU",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 3.06,
+      "exit_ip": "66.90.98.34",
+      "exit_ip_loc": "SG Singapore",
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "US",
+      "google_suffix": "com"
+    },
+    {
+      "node": "🇯🇵日本高速01|BGP|CUCM",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 1.92,
+      "exit_ip": "203.10.99.11",
+      "exit_ip_loc": "JP Tokyo",
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇯🇵日本高速02|BGP|CUCM",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 0.85,
+      "exit_ip": "203.10.99.12",
+      "exit_ip_loc": "JP Tokyo",
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇯🇵日本高速03|BGP|CUCM",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 1.03,
+      "exit_ip": "203.10.99.26",
+      "exit_ip_loc": "JP Tokyo",
+      "chains": [
+        "🇯🇵日本高速03|BGP|CUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇯🇵日本高速04|BGP|CUCM",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 1.0,
+      "exit_ip": "203.10.99.27",
+      "exit_ip_loc": "JP Tokyo",
+      "chains": [
+        "🇯🇵日本高速03|BGP|CUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇯🇵日本高速05|BGP|CUCM",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 1.69,
+      "exit_ip": "203.10.99.28",
+      "exit_ip_loc": "JP Tokyo",
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇯🇵日本高速06|BGP|CTCU",
+      "ok": false,
+      "kind": "net",
+      "why": "❌ 连不上：ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurr",
+      "status": null,
+      "text": "ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)",
+      "elapsed": 5.0,
+      "exit_ip": "203.10.99.10",
+      "exit_ip_loc": "JP Tokyo",
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇯🇵日本高速07|BGP|CTCU",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 3.79,
+      "exit_ip": "203.10.99.10",
+      "exit_ip_loc": "JP Tokyo",
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇯🇵日本高速08|BGP|CTCU",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 3.03,
+      "exit_ip": "203.10.99.26",
+      "exit_ip_loc": "JP Tokyo",
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇯🇵日本高速09|BGP|CTCU",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 4.48,
+      "exit_ip": "203.10.99.26",
+      "exit_ip_loc": "JP Tokyo",
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇺🇸美国高速01|CTCU|0.1x",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 1.53,
+      "exit_ip": "23.237.50.27",
+      "exit_ip_loc": "US Los Angeles",
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇺🇸美国高速02|CTCU|0.1x",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 1.48,
+      "exit_ip": "23.237.50.28",
+      "exit_ip_loc": "US Los Angeles",
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇺🇸美国高速03|CTCU|0.1x",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 1.63,
+      "exit_ip": "23.237.50.35",
+      "exit_ip_loc": "US Los Angeles",
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇺🇸美国高速04|CTCU|0.1x",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 1.53,
+      "exit_ip": "23.237.50.36",
+      "exit_ip_loc": "US Los Angeles",
+      "chains": [
+        "🇺🇸美国高速04|CTCU|0.1x",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇺🇸美国高速05|CTCU|0.1x",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 1.61,
+      "exit_ip": "203.10.97.121",
+      "exit_ip_loc": "US Los Angeles",
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇬🇧英国伦敦01|CTCU|0.1x",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 2.06,
+      "exit_ip": "62.164.143.250",
+      "exit_ip_loc": "GB Fareham",
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇬🇧英国伦敦02|CTCU|0.1x",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 1.08,
+      "exit_ip": "62.164.143.251",
+      "exit_ip_loc": "GB Fareham",
+      "chains": [
+        "🇸🇬新加坡高速05|BGP|CTCUCM",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇺🇸美国洛杉矶01|流媒体|0.01x",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 1.16,
+      "exit_ip": "23.237.50.28",
+      "exit_ip_loc": "US Los Angeles",
+      "chains": [
+        "🇺🇸美国洛杉矶01|流媒体|0.01x",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇺🇸美国洛杉矶02|流媒体|0.01x",
+      "ok": false,
+      "kind": "net",
+      "why": "❌ 连不上：ConnectTimeout: _ssl.c:1000: The handshake operation timed o",
+      "status": null,
+      "text": "ConnectTimeout: _ssl.c:1000: The handshake operation timed out",
+      "elapsed": 20.01,
+      "exit_ip": "23.237.50.36",
+      "exit_ip_loc": "US Los Angeles",
+      "chains": [
+        "🇺🇸美国洛杉矶02|流媒体|0.01x",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇭🇰香港专线01|BGP|住宅IP",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 0.75,
+      "exit_ip": "42.200.231.97",
+      "exit_ip_loc": "HK Central",
+      "chains": [
+        "🇭🇰香港专线01|BGP|住宅IP",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇭🇰香港专线02|BGP|住宅IP",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 0.9,
+      "exit_ip": "42.200.231.158",
+      "exit_ip_loc": "HK Central",
+      "chains": [
+        "🇭🇰香港专线02|BGP|住宅IP",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇭🇰香港专线03|BGP|住宅IP",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 1.28,
+      "exit_ip": "42.200.176.57",
+      "exit_ip_loc": "HK Central",
+      "chains": [
+        "🇭🇰香港专线03|BGP|住宅IP",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇭🇰香港专线04|BGP|住宅IP",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 0.99,
+      "exit_ip": "112.120.119.150",
+      "exit_ip_loc": "HK Central",
+      "chains": [
+        "🇭🇰香港专线04|BGP|住宅IP",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "US",
+      "google_suffix": "com"
+    },
+    {
+      "node": "🇭🇰香港专线05|BGP|住宅IP",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 1.61,
+      "exit_ip": "42.200.231.151",
+      "exit_ip_loc": "HK Central",
+      "chains": [
+        "🇭🇰香港专线05|BGP|住宅IP",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇸🇬新加坡专线01|BGP|流媒体",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 0.76,
+      "exit_ip": "66.90.98.35",
+      "exit_ip_loc": "SG Singapore",
+      "chains": [
+        "🇸🇬新加坡专线01|BGP|流媒体",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇸🇬新加坡专线02|BGP|流媒体",
+      "ok": false,
+      "kind": "region",
+      "why": "❌ 地区不支持（User location is not supported）",
+      "status": 400,
+      "text": "ClientError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "elapsed": 0.87,
+      "exit_ip": "66.90.98.36",
+      "exit_ip_loc": "SG Singapore",
+      "chains": [
+        "🇸🇬新加坡专线02|BGP|流媒体",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "HK",
+      "google_suffix": "com.hk"
+    },
+    {
+      "node": "🇸🇬新加坡专线03|BGP|流媒体",
+      "ok": true,
+      "kind": "ok",
+      "why": "✅ 拿到回复",
+      "status": 200,
+      "text": "Hi there! How can I help you today?",
+      "elapsed": 1.09,
+      "exit_ip": "18.143.161.226",
+      "exit_ip_loc": "SG Singapore",
+      "chains": [
+        "🇸🇬新加坡专线03|BGP|流媒体",
+        "良心云"
+      ],
+      "rule": "DomainKeyword",
+      "rulePayload": "google",
+      "google_country": "US",
+      "google_suffix": "com"
+    }
+  ]
+}
